@@ -6,7 +6,8 @@
     "pages/user/user",
     "pages/search/search",
     "pages/userInfo/userInfo",
-    "pages/answers/answers"
+    "pages/answers/answers",
+    "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -16,33 +17,34 @@
     "backgroundColor": "#eeeeee"
   },
   "tabBar": {
-    "color":"#999999",
-    "selectedColor":"#1296db",
+    "color": "#999999",
+    "selectedColor": "#1296db",
     "list": [
       {
         "pagePath": "pages/index/index",
         "text": "首页",
-        "iconPath":"img/home.png",
-        "selectedIconPath":"img/homeSelecte.png"
+        "iconPath": "img/home.png",
+        "selectedIconPath": "img/homeSelecte.png"
       },
       {
         "pagePath": "pages/university/university",
         "text": "大学",
-        "iconPath":"img/university.png",
-        "selectedIconPath":"img/universitySelecte.png"
+        "iconPath": "img/university.png",
+        "selectedIconPath": "img/universitySelecte.png"
       },
       {
         "pagePath": "pages/message/message",
         "text": "通知",
-        "iconPath":"img/message.png",
-        "selectedIconPath":"img/messageSelecte.png"
+        "iconPath": "img/message.png",
+        "selectedIconPath": "img/messageSelecte.png"
       },
       {
         "pagePath": "pages/user/user",
         "text": "我的",
-        "iconPath":"img/user.png",
-        "selectedIconPath":"img/userSelecte.png"
+        "iconPath": "img/user.png",
+        "selectedIconPath": "img/userSelecte.png"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }
